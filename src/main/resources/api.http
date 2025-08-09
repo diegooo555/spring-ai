@@ -1,0 +1,28 @@
+### Get chat messages
+GET http://localhost:8080/chat
+Accept: application/json
+
+###
+
+### Stream chat response
+GET http://localhost:8080/stream
+Accept: text/event-stream
+
+### Get chat response with query parameter
+GET http://localhost:8080/acme/chat?message=GiveMeTheBestCarsInTheWorld
+Accept: application/json
+
+### Get an article you decide the topic
+GET localhost:8080/posts/new?topic=bovineReproduction
+
+### Get an unstructured vacation plan
+GET localhost:8080/vacation/unstructured
+
+### Get an structured vacation plan
+GET localhost:8080/vacation/structured
+
+### Get description of image
+GET localhost:8080/image-to-text
+
+### Create image
+GET localhost:8080/text-to-image
