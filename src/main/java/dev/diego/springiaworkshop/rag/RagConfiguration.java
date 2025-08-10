@@ -20,7 +20,6 @@ import java.util.List;
 public class RagConfiguration {
 
     private final Logger log = LoggerFactory.getLogger(RagConfiguration.class);
-    private final String vectorStoreName = "vectorstore.json";
 
     @Value("classpath:/data/models.json")
     private Resource models;
@@ -48,6 +47,7 @@ public class RagConfiguration {
 
     private File getVectorStoreFile() {
         Path path = Paths.get("src","main","resources","data");
+        String vectorStoreName = "vectorstore.json";
         String absolutePath = path.toFile().getAbsolutePath() +  File.separator + vectorStoreName;
         return new File(absolutePath);
     }

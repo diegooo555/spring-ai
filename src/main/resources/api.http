@@ -26,3 +26,6 @@ GET localhost:8080/image-to-text
 
 ### Create image
 GET localhost:8080/text-to-image
+
+### Example Rag
+GET localhost:8080/rag/models
