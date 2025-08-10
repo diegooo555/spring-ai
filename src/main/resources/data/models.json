@@ -1,0 +1,52 @@
+[
+  {
+    "company": "OpenAI",
+    "model": "GPT-4O",
+    "context_window_size": 128000
+  },
+  {
+    "company": "Google",
+    "model": "Gemini 1.5",
+    "context_window_size": 1000000
+  },
+  {
+    "company": "Anthropic",
+    "model": "Claude 3",
+    "context_window_size": 200000
+  },
+  {
+    "company": "Meta",
+    "model": "LLaMA 3",
+    "context_window_size": 65000
+  },
+  {
+    "company": "Mistral AI",
+    "model": "Mistral 7B",
+    "context_window_size": 32000
+  },
+  {
+    "company": "Cohere",
+    "model": "Command R+",
+    "context_window_size": 128000
+  },
+  {
+    "company": "xAI",
+    "model": "Grok",
+    "context_window_size": 64000
+  },
+  {
+    "company": "DeepMind",
+    "model": "AlphaCode 2",
+    "context_window_size": 50000
+  },
+  {
+    "company": "Aleph Alpha",
+    "model": "Luminous",
+    "context_window_size": 30000
+  },
+  {
+    "company": "IBM",
+    "model": "WatsonX",
+    "context_window_size": 40000
+  }
+]
