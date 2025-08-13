@@ -29,3 +29,6 @@ GET localhost:8080/text-to-image
 
 ### Example Rag
 GET localhost:8080/rag/models
+
+### Example Tool
+GET localhost:8080/tools
