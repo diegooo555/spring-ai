@@ -1,11 +1,13 @@
 package dev.diego.springiaworkshop.tools.action;
 
 import org.springframework.ai.tool.annotation.Tool;
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
+@Component
 public class TaskManagementTools {
     public record TaskResult(
             Long taskId,
