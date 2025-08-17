@@ -108,6 +108,7 @@ public class WeatherTools {
                 .retrieve()
                 .body(Alert.class);
 
+        assert alert != null;
         return alert.features()
                 .stream()
                 .map(f -> String.format("""

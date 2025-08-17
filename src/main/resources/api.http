@@ -36,3 +36,7 @@ GET localhost:8080/tools
 ### Example Action
 GET localhost:8080/task/action?message=Create a new task with title Create a videogame, with a description the people want play, design and create this project and assign it to Diego
 Accept: application/json
+
+###
+GET localhost:8080/weather/alerts?message=Do you known of any weather alerts in California right now?
+Accept: application/json
