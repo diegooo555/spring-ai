@@ -75,7 +75,7 @@ public class WeatherTools {
         }
     }
 
-    @Tool(description = "Get weather fprecast for a specific latitude/longitude")
+    @Tool(description = "Get weather forecast for a specific latitude/longitude")
     public String getWeatherForecastByLocation(double latitude, double longitude) {
 
         var points = restClient.get()
